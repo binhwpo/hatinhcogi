@@ -1,0 +1,268 @@
+.mb0 {
+    margin-bottom: 0;
+}
+
+.br-7 {
+    object-fit: cover;
+}
+
+.list-item {
+    margin-left: -7px;
+    margin-right: -7px;
+}
+
+.list-item .item-img {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.list-item .item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.list-item .delete-item {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    padding: 2px 10px;
+    background: #dee5f7;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.list-item .delete-item i {
+    font-size: 12px;
+    color: #565b95;
+}
+
+.list-item .item-img:hover .delete-item {
+    display: block;
+}
+
+.list-item .item-img .delete-item:hover i {
+    color: red;
+}
+
+.modal-content {
+    padding: 0 0;
+}
+
+.modal-header .close {
+    margin-top: -1rem;
+}
+
+/* .modal-dialog.modal-dialog-centered {
+    max-width: 475px;
+} */
+
+.modal-body label {
+    margin-bottom: 0;
+}
+
+.modal-body .custom-switch-description {
+    margin-left: 0;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.richText .richText-editor {
+    height: 500px !important;
+}
+
+.modal-dialog.modalmedia {
+    max-width: 70%;
+    height: 60%;
+}
+
+.modal-dialog.modalmedia .modal-content {
+    padding: 0 0;
+    height: 600px;
+}
+
+.itemimg {
+    height: 200px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.imgmodal {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.selectimg {
+    padding: 5px;
+    border: blue solid 5px;
+}
+
+.itemimg .deletebutton {
+    display: none;
+    position: absolute;
+    right: 22px;
+    top: 8px;
+    padding: 4px 9px 2px 9px;
+    border-radius: 100px;
+    background-color: #2a2d2c61;
+    cursor: pointer;
+}
+
+.itemimg .deletebutton i {
+    color: #fff;
+}
+
+.itemimg:hover .deletebutton {
+    display: block;
+}
+
+.itemimg .deletebutton:hover {
+    background-color: #fff;
+}
+
+.itemimg .deletebutton:hover i {
+    color: red;
+}
+
+.cke_contents.cke_reset {
+    height: 700px !important;
+  } 
+
+  .tag {
+    background-color: #215bdc;
+  }
+
+  .bootstrap-tagsinput {
+    width: 100%;
+  }
+
+  .bootstrap-tagsinput .label {
+    margin-bottom: .2rem;
+    margin-top: 0.2rem;
+  }
+
+.textper {
+    padding-left: 5px;
+  }
+
+  .showpass {
+    position: absolute;
+    left: -25px;
+    top: 11px;
+    cursor: pointer;
+  }
+
+  .showpass:hover {
+    color: #215bdc;
+  }
+
+  .div_img_profile {
+    margin: auto;
+  }
+
+  .div_change_img {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 200px;
+    position: relative;
+  }
+
+  .div_img_profile .img_profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .div_img_profile label {
+    display: none;
+    position: absolute;
+    top: 65px;
+    right: 70px;
+    background: transparent;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+  }
+
+  .div_change_img:hover label {
+    display: block;
+  }
+
+  #formtime label {
+    margin-bottom: .1rem;
+  }
+
+  .imgpre {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .deleteimg {
+      display: none;
+  }
+
+  .itemimgaa {
+    height: 140px;
+  }
+
+  .itemimgaa:hover .deleteimg {
+      display: block;
+  }
+
+  .labelupload {
+    width: 100%;
+    height: 210px;
+    display: block;
+  }
+
+  .iupload {
+    font-size: 70px;
+    padding: 69px 0;
+  }
+
+  .mobile-infor {
+      display: none;
+  }
+
+  #contentservice i {
+    padding: 0px 10px;
+  }
+
+  #addcategory label {
+    margin-bottom: 0;
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1750px)  {
+    #formplace .col-xl-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1279px)  {
+    .mobile-infor {
+        display: block;
+    }
+
+    .laptop-infor {
+        display: none;
+    }
+  }

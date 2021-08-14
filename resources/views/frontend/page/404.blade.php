@@ -1,0 +1,1 @@
+Bạn ko có quyền

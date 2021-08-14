@@ -1,0 +1,119 @@
+@import url(all.css);
+@import url(home.css);
+
+body {
+    line-height: 1.74;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+a, button {
+    color: inherit;
+    display: inline-block;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none !important;
+    /* color: #ffc4a0 !important; */
+}
+
+button:focus {
+    outline: none !important;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+ul {
+    margin: 0 0 !important;
+    padding: 0 0;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    color: #9b9ea1;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(204 204 204);
+    padding: 8px 13px;
+}
+
+.flex.justify-between.flex-1 {
+    display: none;
+}
+
+.text-sm.text-gray-700.leading-5 {
+    display: none;
+}
+
+.relative svg.w-5.h-5 {
+    display: none;
+}
+
+.breadcrumb {
+    width: 100%;
+    margin: 0 0 !important;
+    background-color: transparent !important;
+    padding-left: 0 !important;
+    padding: 20px 0 !important;
+}
+
+.cd-breadcrumb.custom-separator {
+    display: flex;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.cd-breadcrumb.custom-separator li {
+    position: relative;
+    list-style: none;
+    position: relative;
+    margin: 0 0;
+    padding: 0 20px;
+}
+
+.cd-breadcrumb.custom-separator li:first-child {
+    padding-left: 0;
+}
+
+.cd-breadcrumb.custom-separator li::after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 16px;
+    top: 3px;
+    width: 16px;
+    background: url(https://codyhouse.co/demo/breadcrumbs-multi-steps-indicator/img/cd-custom-separator.svg) no-repeat center center;
+    right: -8px;
+}
+
+.cd-breadcrumb.custom-separator li.current::after {
+    display: none;
+}
+
+.cd-breadcrumb.custom-separator li a {
+    color: #555;
+}
+
+.cd-breadcrumb.custom-separator li a:hover {
+    color: #ffc4a0;
+}
+
+.cd-breadcrumb.custom-separator li.current em {
+    color: #ffc4a0;
+}
