@@ -63,8 +63,8 @@
             <span class="side-menu__label">Page</span><i class="angle fa fa-angle-right"></i>
         </a>
         <ul class="slide-menu">
-            <li><a class="slide-item" href="{{ route('page.index') }}">Danh sách page</a></li>
-            <li><a class="slide-item" href="{{ route('page.create') }}">Thêm page</a></li>
+            <li><a class="slide-item" href="">Danh sách page</a></li>
+            <li><a class="slide-item" href="">Thêm page</a></li>
         </ul>
     </li>
     
@@ -98,7 +98,7 @@
         </a>
     </li>
     <li class="slide">
-        <a class="side-menu__item" data-toggle="slide" href="{{ route('slug.index') }}">
+        <a class="side-menu__item" data-toggle="slide" href="">
             <i class="feather feather-paperclip sidemenu_icon"></i>
             <span class="side-menu__label">Đường dẫn</span>
         </a>
