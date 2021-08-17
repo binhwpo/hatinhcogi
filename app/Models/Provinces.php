@@ -12,7 +12,7 @@ class Provinces extends Model
     use HasFactory;
 
     /**
-     * Get all of the comments for the Provinces
+     * Get all of the comments for the Province
      *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
